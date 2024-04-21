@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REST Countries</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awaesome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,600,800"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header">
+        <h2 class="title"> <a href="/">Where in the World</a> </h2>
+        <!-- <p><i class="fa-regular fa-moon"></i> Dar Mode</p> -->
+      </div>
+    </header>
+
+    <main>
+      <div class="search-filter-container">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="input" type="text" placeholder="search country">
+        </div>
+        <select class="filter">
+          <option value="Africa" hidden>Filter by region</option>
+          <option value="Africa">Africa</option>
+          <option value="Europe">Europe</option>
+        </select>
+
+      </div>
+        <div class="countries-container">
+            <!-- <a href="#" class="country-card">
+                <img src="https://flagcdn.com/md.svg" alt="">
+               <div class="card-content">
+                <h3></h3>
+                <p><b>Population</b> 81,770, 9</p>
+                <p><b>Region</b>Europe</p>
+                <p><b>Capital</b>Berlin</p>
+               </div>
+            </a> -->
+        </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

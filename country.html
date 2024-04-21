@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awaesome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,600,800"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header">
+        <h2 class="title"> <a href="/">Where in the World</a> </h2>
+        <p><i class="fa-regular fa-moon"></i> Dar Mode</p>
+      </div>
+    </header>
+    <main>
+   <div class="country-details-container">
+    <a onclick="history.back()" href="#" class="back-button"><i class="fa-solid fa-arrow-left"></i> &nbsp; Back</a>
+    <div class="country-details">
+      <img class="img-flag" src="" alt="">
+      <div>
+        <h1 class="countryName">Iceland</h1>
+        <div class="text-details">
+          <p><b>Native name:</b><span class="native-name"></span></p>
+          <p><b>population:</b><span class="population"></span></p>
+          <p><b>Region:</b><span class="region"></span></p>
+          <p><b>Sub Region:</b><span class="sub-region"></span></p>
+          <p><b>Capital:</b><span class="capital"></span></p>
+          <p><b>Top Level Domain:</b><span class="top-level-domain"></span></p>
+          <p><b>Currency:</b><span class="currencies"></span></p>
+          <p><b>Languages:</b><span class="languages"></span></p>
+
+        </div>
+
+        <div class="border-countries">
+          <p>Border countries :
+        </div>
+      </div>
+    </div>
+   </div>
+    
+    
+    </main>
+
+    <script src="country.js"></script>
+  </body>
+</html>
